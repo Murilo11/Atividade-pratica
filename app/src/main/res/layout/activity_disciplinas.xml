@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisciplinasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvTituloDisciplinas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Disciplinas do Curso"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1A1A1A"
+            android:layout_marginBottom="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tvProgramacao"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:text="Programação"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@color/logo_blue" />
+
+            <TextView
+                android:id="@+id/tvBancoDados"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:text="Banco de Dados"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@color/logo_blue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tvEngSoftware"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:text="Engenharia de Software"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@color/logo_blue" />
+
+            <TextView
+                android:id="@+id/tvDevWeb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:text="Desenvolvimento Web"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@color/logo_blue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/tvDevMobile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:text="Desenvolvimento Mobile"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@color/logo_blue" />
+
+            <TextView
+                android:id="@+id/tvIA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:text="Inteligência Artificial"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@color/logo_blue" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/ButtonVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/logo_blue"
+            android:text="Voltar" />
+
+    </LinearLayout>
+
+</ScrollView>
