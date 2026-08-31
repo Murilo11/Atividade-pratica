@@ -17,7 +17,7 @@
         android:layout_height="140dp"
         android:layout_marginBottom="20dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/Codecamp" />
+        android:src="@drawable/codecamper" />
 
     <TextView
         android:id="@+id/tvNomeInstituicao"
